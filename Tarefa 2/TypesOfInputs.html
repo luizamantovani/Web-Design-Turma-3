@@ -6,196 +6,120 @@
     <title>HTML Forms</title>
 </head>
 <body>
-    <h1>
-        Formulário HTML
-    </h1>
-    <h2>
-        Type Text
-    </h2>
+    <h1>Formulário HTML</h1>
+
     <form action="https://www.w3schools.com/action_page.php">
+
+        <h2>Type Text</h2>
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-    </form>
-    <h2>
-        Type Radio
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
+        <input type="text" id="lname" name="lname"><br>
+
+        <h2>Type Radio</h2>
         <input type="radio" id="html" name="fav_language" value="HTML" checked>
         <label for="html">HTML</label><br>
         <input type="radio" id="css" name="fav_language" value="CSS">
         <label for="css">CSS</label><br>
         <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-    </form>
-    <h2>
-        Type Checkbox
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">    
+        <label for="javascript">JavaScript</label><br>
+
+        <h2>Type Checkbox</h2>
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
         <label for="vehicle1"> I have a bike</label><br>
         <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
         <label for="vehicle2"> I have a car</label><br>
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> I have a boat</label>
-    </form>
-    <h2>
-        Type submit
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    <h2>
-        Type Button
-    </h2>
-    <input type="button" value="Click me" onclick="alert('Ola')">
-    <h2>
-        Text area
-    </h2>
-    <textarea name="message" rows="10" cols="30"></textarea>
-    <h2>
-        Fieldset e legend
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
+        <label for="vehicle3"> I have a boat</label><br>
+
+        <h2>Button</h2>
+        <input type="button" value="Click me" onclick="alert('Ola')"><br><br>
+
+        <h2>Text Area</h2>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" rows="10" cols="30"></textarea><br>
+
+        <h2>Fieldset and Legend</h2>
         <fieldset>
-        <legend>Personalia:</legend>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-        </fieldset>
-    </form>
-    <h2>
-        Datalist
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input list="browsers" name="browser">
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+        </fieldset><br>
+
+        <h2>Datalist</h2>
+        <label for="browser">Choose a browser:</label><br>
+        <input list="browsers" name="browser" id="browser">
         <datalist id="browsers">
-        <option value="Internet Explorer">
-        <option value="Firefox">
-        <option value="Chrome">
-        <option value="Opera">
-        <option value="Safari">
-        </datalist>
-        <input type="submit">
-    </form>
-    
-    <h2>
-        Color
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="color">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+
+        <h2>Color</h2>
+        <label for="favcolor">Pick your favorite color:</label><br>
+        <input type="color" id="favcolor" name="favcolor"><br>
+
+        <h2>Date</h2>
+        <label for="date">Pick a date:</label><br>
+        <input type="date" id="date" name="date"><br>
+
+        <h2>Datetime-local</h2>
+        <label for="datetime">Pick a date and time:</label><br>
+        <input type="datetime-local" id="datetime" name="datetime"><br>
+
+        <h2>Email</h2>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <h2>File</h2>
+        <label for="file">Upload a file:</label><br>
+        <input type="file" id="file" name="file"><br>
+
+        <h2>Hidden</h2>
+        <input type="hidden" name="hiddenField" value="hiddenValue"><br>
+
+        <h2>Image</h2>
+        <label for="submitimage">Submit with image:</label><br>
+        <input type="image" src="image.jpg" alt="Submit" id="submitimage"><br>
+
+        <h2>Month</h2>
+        <label for="month">Select a month:</label><br>
+        <input type="month" id="month" name="month"><br>
+
+        <h2>Number</h2>
+        <label for="number">Pick a number:</label><br>
+        <input type="number" id="number" name="number"><br>
+
+        <h2>Password</h2>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <h2>Range</h2>
+        <label for="range">Range:</label><br>
+        <input type="range" id="range" name="range"><br>
+
+        <h2>Search</h2>
+        <label for="search">Search:</label><br>
+        <input type="search" id="search" name="search"><br>
+
+        <h2>Time</h2>
+        <label for="time">Pick a time:</label><br>
+        <input type="time" id="time" name="time"><br>
+
+        <h2>Url</h2>
+        <label for="url">Website URL:</label><br>
+        <input type="url" id="url" name="url"><br>
+
+        <h2>Week</h2>
+        <label for="week">Pick a week:</label><br>
+        <input type="week" id="week" name="week"><br><br>
+
+        <input type="submit" value="Submit">
     </form>
 
-    <h2>
-        Date
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="date">
-    </form>
-
-    <h2>
-        Datetime-local
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="datetime-local">
-    </form>
-
-    <h2>
-        Email
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="email">
-    </form>
-
-    <h2>
-        File
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="file">
-    </form>
-
-    <h2>
-        Hidden
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="hidden">
-    </form>
-
-    <h2>
-        Image
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="image">
-    </form>
-
-    <h2>
-        Month
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="month">
-    </form>
-
-    <h2>
-        Number
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="number">
-    </form>
-
-    <h2>
-        Password
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="password">
-    </form>
-
-    <h2>
-        Range
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="range">
-    </form>
-
-    <h2>
-        Reset
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="reset">
-    </form>
-
-    <h2>
-        Search
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="search">
-    </form>
-
-    <h2>
-        Time
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="time">
-    </form>
-
-    <h2>
-        Url
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="url">
-    </form>
-
-    <h2>
-        Week
-    </h2>
-    <form action="https://www.w3schools.com/action_page.php">
-        <input type="week">
-    </form>
 </body>
 </html>

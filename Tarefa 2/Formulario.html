@@ -6,112 +6,99 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>
-        Formulário
-    </h1>
+    <h1>Formulário</h1>
     <form action="https://www.w3schools.com/action_page.php">
+        
         <fieldset>
-        <legend>Data:</legend>
-        <input type="date" name="Data" id="Data">
+            <legend>Data:</legend>
+            <input type="date" name="Data" id="Data">
         </fieldset>
+
+        <fieldset>
+            <legend>Dados de Acesso:</legend>
+            <label for="user">Usuário:</label><br>
+            <input type="text" id="user" name="user" ><br>
+
+            <label for="Password">Senha:</label><br>
+            <input type="password" id="Password" name="password"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="Address">Endereço:</label><br>
+            <input type="text" id="Address" name="address"><br>
+
+            <label for="number">Número:</label><br>
+            <input type="number" id="number" name="number"><br>
+
+            <label for="Comp">Complemento:</label><br>
+            <input type="text" id="Comp" name="Comp"><br>
+
+            <label for="City">Cidade:</label><br>
+            <input list="cities" name="city">
+            <datalist id="cities">
+                <option value="Sorocaba">
+                <option value="Votorantim">
+                <option value="Campinas">
+                <option value="Itu">
+                <option value="São Paulo">
+            </datalist><br>
+
+            <label for="state">Estado:</label><br>
+            <select name="state" id="state">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+            </select><br>
+
+            <label for="cep">CEP:</label><br>
+            <input type="text" id="cep" name="cep"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gênero:</legend>
+            <input type="radio" id="Masculino" name="gender" value="MASC" checked>
+            <label for="Masculino">Masculino</label><br>
+
+            <input type="radio" id="Feminino" name="gender" value="FEM">
+            <label for="Feminino">Feminino</label><br>
+
+            <input type="radio" id="PrefiroNaoFalar" name="gender" value="INDF">
+            <label for="PrefiroNaoFalar">Prefiro não falar</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Curso:</legend>
+
+            <input type="checkbox" id="ADS" name="Curso1" value="ads">
+            <label for="ADS">ADS</label><br>
+            <input type="checkbox" id="JOGOS" name="Curso2" value="jogos">
+            <label for="JOGOS">Jogos</label><br>
+            <input type="checkbox" id="GestaoTI" name="Curso3" value="gest">
+            <label for="GestaoTI">Gestão de TI</label><br>
+            <input type="checkbox" id="BANCO" name="Curso4" value="banc">
+            <label for="BANCO">Banco de Dados</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Modelo:</legend>
+
+            <input type="radio" id="Presencial" name="modelo" value="Pre" checked>
+            <label for="Presencial">Presencial</label><br>
+
+            <input type="radio" id="EAD" name="modelo" value="EAD">
+            <label for="EAD">EAD</label><br>
+
+            <input type="radio" id="Semi" name="modelo" value="semi">
+            <label for="Semi">Semi Presencial</label><br>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
     </form>
-    <form action="https://www.w3schools.com/action_page.php">
-        <fieldset>
-        <legend>Dados de Acesso:</legend>
-        <label for="user">Usuário:</label><br>
-        <input type="text" id="user" name="user" ><br>
-        <label for="Password">Senha:</label><br>
-        <input type="password"><br>
-
-        </fieldset>
-    </form>
-    <form action="https://www.w3schools.com/action_page.php">
-        <fieldset>
-        <legend>Dados pessoais:</legend>
-
-        <label for="name">Nome:</label><br>
-        <input type="text" id="name" name="name"><br>
-
-        <label for="Adress">Endereço:</label><br>
-        <input type="text" id="Adress" name="Adress"><br>
-
-        <label for="number">Número:</label><br>
-        <input type="number" id="number" name="number"><br>
-
-        <label for="Comp">Complemento:</label><br>
-        <input type="text" id="Comp" name="Comp"><br>
-
-        <label for="City">Cidade:</label><br>
-        <input list="cities" name="city">
-        <datalist id="cities">
-        <option value="Sorocaba">
-        <option value="Votorantim">
-        <option value="Campinas">
-        <option value="Itu">
-        <option value="São Paulo">
-        </datalist><br>
-
-        <label for="state">Estado:</label><br>
-        <select name="state" id="state">
-            <option value="SP">São Paulo</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="ES">Espirito Santo</option>
-        </select><br>
-
-        <label for="cep">CEP:</label><br>
-        <input type="text" id="cep" name="cep"><br>
-
-        </fieldset>
-
-        </form>
-
-        <form action="https://www.w3schools.com/action_page.php">
-            <fieldset>
-                <legend>Gênero:</legend>
-        
-                <input type="radio" id="Masculino" name="gender" value="MASC" checked>
-                <label for="Masculino">Masculino</label><br>
-        
-                <input type="radio" id="Feminino" name="gender" value="FEM">
-                <label for="Feminino">Feminino</label><br>
-        
-                <input type="radio" id="Prefiro não falar" name="gender" value="INDF">
-                <label for="Prefiro não falar">Prefiro não falar</label><br>
-        
-            </fieldset>
-        </form>
-        
-        <form action="https://www.w3schools.com/action_page.php">
-            <fieldset>
-                <legend>Curso:</legend>
-
-                <input type="checkbox" id="ADS" name="Curso1" value="ads">
-                <label for="ADS">ADS</label><br>
-                <input type="checkbox" id="JOGOS" name="Curso2" value="jogos">
-                <label for="JOGOS">Jogos</label><br>
-                <input type="checkbox" id="Gestão de TI" name="Curso3" value="gest">
-                <label for="Gestão de TI">Gestão de TI</label><br>
-                <input type="checkbox" id="BANCO" name="Curso4" value="banc">
-                <label for="BANCO">Banco de Dados</label>
-
-            </fieldset>
-        </form>
-
-        <form action="https://www.w3schools.com/action_page.php">
-            <fieldset>
-                <legend>Modelo:</legend>
-        
-                <input type="radio" id="Presencial" name="modelo" value="Pre" checked>
-                <label for="Presencial">Presencial</label><br>
-        
-                <input type="radio" id="ead" name="modelo" value="EAD">
-                <label for="ead">EAD</label><br>
-        
-                <input type="radio" id="Semi" name="modelo" value="semi">
-                <label for="Semi">Semi Presencial</label><br>
-        
-            </fieldset>
-        </form>
 </body>
 </html>
