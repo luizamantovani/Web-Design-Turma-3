@@ -56,6 +56,10 @@ nav {
     max-width: 50%;
     font-size: 20px;
 }
+.text2{
+    font-size: 20px;
+    padding-right: 40px;
+}
 
 .border {
     border: 1px solid #130227;
@@ -81,4 +85,10 @@ nav {
     height: 300px;
     border-radius: 10%;
     margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.li-space{
+    margin-left: 40px;
 }
