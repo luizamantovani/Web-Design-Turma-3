@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #7e99a5;
 }
 
@@ -10,39 +10,59 @@ a {
 a:hover {
     color: #5bc3f3;
 }
-    
+
 nav {
     background-color: #6b7fac;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
-    }
+}
 
 .listOnTheSameLine {
     display: inline;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    padding: 10px;
-    margin-right: 20px;
 }
 
-.title{
+.title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 36px;
     padding-left: 40px;
 }
 
-.paddingOnLeft{
+.paddingOnLeft {
     padding-left: 40px;
 }
 
-.profileImage{
-    padding-left: 500px;
-    width: 200px;
-    height: 200px;
+.flexbox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.profileImage {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 200px;
     /*border: 2px solid black;*/
 }
 
-.border{
-    border:1px solid #130227;
+.text {
+    display: flex;
+    max-width: 50%;
+}
+
+.border {
+    border: 1px solid #130227;
     padding: 20px;
+}
+
+.li-line {
+    border-right: 1px #130227 solid;
+    margin-right: 18px;
+    margin-left: 10px;
 }
