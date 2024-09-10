@@ -54,6 +54,7 @@ nav {
 .text {
     display: flex;
     max-width: 50%;
+    font-size: 20px;
 }
 
 .border {
@@ -65,4 +66,19 @@ nav {
     border-right: 1px #130227 solid;
     margin-right: 18px;
     margin-left: 10px;
+}
+
+.title2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.image{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-left: 200px;
 }
