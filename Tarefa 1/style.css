@@ -92,3 +92,14 @@ nav {
 .li-space{
     margin-left: 40px;
 }
+.li-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
