@@ -36,6 +36,7 @@ nav {
 .flexbox {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
@@ -45,9 +46,8 @@ nav {
 .profileImage {
     display: flex;
     width: 300px;
-    height: 300px;
+    height: auto;
     border-radius: 50%;
-    margin-left: 200px;
     /*border: 2px solid black;*/
 }
 
@@ -56,12 +56,16 @@ nav {
     max-width: 50%;
     font-size: 20px;
 }
-.text2{
+
+.text2 {
     font-size: 20px;
     padding-right: 40px;
 }
 
 .border {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     border: 1px solid #130227;
     padding: 20px;
 }
@@ -72,14 +76,14 @@ nav {
     margin-left: 10px;
 }
 
-.title2{
+.title2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     padding-left: 40px;
     padding-top: 40px;
 }
 
-.image{
+.image {
     display: flex;
     width: 300px;
     height: 300px;
@@ -89,17 +93,29 @@ nav {
     margin-bottom: 40px;
 }
 
-.li-space{
+.li-space {
     margin-left: 40px;
 }
-.li-flex{
+
+.li-flex {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin-bottom: 10px;
 }
-.icon{
+
+.icon {
+    display: flex;
+    align-items: center;
     width: 40px;
     height: 40px;
     margin-left: 10px;
     border-radius: 10%;
+}
+
+@media screen and (min-width: 600px) {
+    .contact-box {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
