@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    background-color: coral;
+}
+
+main{
+    background-color: antiquewhite;
+    height: 80vh;
+  }
+
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.coralCat {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:5px solid coral ;
+    margin-top: 30px;
+  }
+
+.blackCat {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:5px solid rgb(0, 0, 0) ;
+    margin-top: 30px;
+}
+
+.blueCat{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:5px solid rgb(58, 8, 194) ;
+    margin-top: 30px;
+}
+
+
+  .fase1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+  }
+
+  .fase2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .fase3{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fase4{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fase5{
+    display: flex;
+    align-items: flex-end;
+    height: 80vh;
+  }
+
+  .fase6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
