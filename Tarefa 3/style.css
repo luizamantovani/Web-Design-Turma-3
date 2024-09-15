@@ -1,76 +1,155 @@
-header{
-    display: flex;
-    justify-content: center;
-    font-size: 24px;
-    background-color: coral;
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  background-color: coral;
 }
 
-main{
-    background-color: antiquewhite;
-    height: 80vh;
-  }
+main {
+  background-color: antiquewhite;
+  height: 80vh;
+}
 
 .fascinate-inline-regular {
-    font-family: "Fascinate Inline", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .coralCat {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border:5px solid coral ;
-    margin-top: 30px;
-  }
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid coral;
+}
 
 .blackCat {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border:5px solid rgb(0, 0, 0) ;
-    margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 0);
 }
 
-.blueCat{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border:5px solid rgb(58, 8, 194) ;
-    margin-top: 30px;
+.blueCat {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgb(58, 8, 194);
 }
 
 
-  .fase1{
-    display: flex;
-    align-items: flex-start;
-    justify-content: end;
-  }
+.fase1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+}
 
-  .fase2{
-    display: flex;
-    justify-content: center;
-  }
+.fase2 {
+  display: flex;
+  justify-content: center;
+}
 
-  .fase3{
-    display: flex;
-    justify-content: space-around;
-  }
+.fase3 {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .fase4{
-    display: flex;
-    justify-content: space-between;
-  }
+.fase4 {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .fase5{
-    display: flex;
-    align-items: flex-end;
-    height: 80vh;
-  }
+.fase5 {
+  display: flex;
+  align-items: flex-end;
+  height: 80vh;
+}
 
-  .fase6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-  }
+.fase6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.fase7 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.fase8 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fase9 {
+  display: flex;
+  flex-direction: column;
+}
+
+.fase10 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.fase11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 80vh;
+}
+
+.fase12 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.fase13 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.fase14{
+  display: flex;
+}
+
+.black1{
+  order: +1;
+}
+
+.fase15{
+  display: flex;
+}
+
+.black-3{
+  order: -3;
+}
+
+.fase16{
+  display: flex;
+  align-items: flex-start;
+  height: 80vh;
+}
+
+.blueFlexEnd{
+  align-self: flex-end;
+}
+
+.fase17{
+  display: flex;
+  align-items: flex-start;
+  height: 80vh;
+}
+
+.blue2
+{
+  order: +2;
+}
