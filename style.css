@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 103, 142);
+    color: antiquewhite;
+}
+
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 2rem;
+}
+
+.grid-item{
+    background-color: rgb(196, 103, 142);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px ;
+    font-size: 1.5rem;
+    padding: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.grid-item:hover{
+    background-color:rgb(126, 58, 86) ;
+}
