@@ -113,9 +113,19 @@ nav {
     border-radius: 10%;
 }
 
-@media screen and (min-width: 600px) {
-    .contact-box {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+.input-file {
+    opacity: 0;
+    width: 100vh;
+    height: 100vh;
 }
+
+.input-file:focus-visible {
+    outline: -webkit-focus-ring-color auto 2px;
+}
+
+@media (max-width: 800px) {
+    .flexbox {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

@@ -1,16 +1,43 @@
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   font-size: 24px;
   background-color: coral;
   font-family: "Fascinate Inline", system-ui;
   font-weight: 400;
+  color: antiquewhite;
   font-style: normal;
 }
 
-main {
+h1{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.flex-btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+body {
   background-color: antiquewhite;
-  height: 80vh;
+}
+
+main {
+  height: 60vh;
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  /* Align the button to the right */
+  background-color: antiquewhite;
+  padding: 2rem;
+  /* Optional padding for spacing */
 }
 
 .greenCat {
@@ -59,7 +86,7 @@ main {
 .fase5 {
   display: flex;
   align-items: flex-end;
-  height: 80vh;
+  height: 60vh;
 }
 
 .fase6 {
@@ -73,12 +100,13 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 80vh;
+  height: 60vh;
 }
 
 .fase8 {
   display: flex;
   flex-direction: row-reverse;
+  height: 60vh;
 }
 
 .fase9 {
@@ -103,7 +131,7 @@ main {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  height: 80vh;
+  height: 75vh;
 }
 
 .fase13 {
@@ -191,7 +219,7 @@ main {
   background-color: antiquewhite;
 }
 
-.fase24{
+.fase24 {
   height: 120vh;
   background-color: antiquewhite;
   display: flex;
@@ -200,3 +228,92 @@ main {
   justify-content: center;
   align-content: space-between;
 }
+
+.btn {
+  background-color: coral;
+  border: none;
+  /* No border */
+  color: white;
+  /* White text */
+  padding: 15px 20px;
+  /* Padding for button size */
+  text-align: center;
+  /* Centered text */
+  text-decoration: none;
+  /* Remove underline */
+  display: inline;
+  /* Inline element */
+
+  font-size: 16px;
+  /* Font size */
+  margin: 10px 2px;
+  /* Margin around the button */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  border-radius: 8px;
+  /* Rounded corners */
+  transition: background-color 0.3s ease;
+  /* Smooth hover transition */
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: rgb(243, 74, 13);
+}
+
+.height110 {
+  height: 110vh;
+}
+
+.height80 {
+  height: 80vh;
+}
+
+.height90 {
+  height: 90vh;
+}
+
+.gridCointainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 colunas */
+  grid-template-rows: repeat(6, 1fr);
+  /* 6 linhas */
+  gap: 10px;
+  /* Espaçamento entre os itens */
+  padding: 2rem;
+}
+
+.grid-item {
+  background-color: coral;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.grid-item:hover {
+  background-color: rgb(243, 74, 13);
+}
+
+.back-btn {
+  background-color: rgb(243, 74, 13); 
+  color: antiquewhite;
+  padding: 20px 10px; /* Espaçamento dentro do botão */
+  text-align: center;
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 10px; 
+  margin-right: 20px;/* Margem para espaçar do título */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease;
+  height: 5vh;
+}
+
