@@ -8,6 +8,7 @@ header{
     justify-content: center;
     background-color: rgb(196, 103, 142);
     color: antiquewhite;
+    text-align: center;
 }
 
 
@@ -25,6 +26,7 @@ header{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    text-align: center;
     border-radius: 8px ;
     font-size: 1.5rem;
     padding: 2rem;
@@ -33,4 +35,10 @@ header{
 
 .grid-item:hover{
     background-color:rgb(126, 58, 86) ;
+}
+
+@media (max-width: 600px) {
+    .gridContainer {
+        grid-template-columns: 1fr;
+    }
 }

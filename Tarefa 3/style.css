@@ -8,6 +8,7 @@ header {
   font-weight: 400;
   color: antiquewhite;
   font-style: normal;
+  text-align: center;
 }
 
 h1{
@@ -27,36 +28,73 @@ body {
 }
 
 main {
-  height: 60vh;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
   display: flex;
   justify-content: flex-end;
-  /* Align the button to the right */
   background-color: antiquewhite;
   padding: 2rem;
-  /* Optional padding for spacing */
+  margin-top: 20px;
+}
+
+.box{
+  margin-top: 1vh;
+  display: flex;
+  width: 70vh;
+  height: 70vh;
+  background-color: coral;
+}
+
+.bigBox{
+  margin-top: 1vh;
+  display: flex;
+  width: 88vh;
+  height: 70vh;
+  background-color: coral;
+}
+
+.ret{
+  margin-top: 1vh;
+  width: 70vh;
+  height: 90vh;
+  background-color: coral;
+}
+
+.ret2{
+  margin-top: 1vh;
+  width: 60vh;
+  height: 90vh;
+  background-color: coral;
+}
+
+.ret3{
+  margin-top: 1vh;
+  width: 80vh;
+  height: 90vh;
+  background-color: coral;
 }
 
 .greenCat {
-  width: 120px;
-  height: 120px;
+  width: 16vh;
+  height: 16vh;
   border-radius: 50%;
   border: 5px solid rgb(31, 168, 31);
 }
 
 .yellowCat {
-  width: 120px;
-  height: 120px;
+  width: 16vh;
+  height: 16vh;
   border-radius: 50%;
   border: 5px solid yellow;
 }
 
 .redCat {
-  width: 120px;
-  height: 120px;
+  width: 16vh;
+  height: 16vh;
   border-radius: 50%;
   border: 5px solid red;
 }
@@ -86,27 +124,23 @@ footer {
 .fase5 {
   display: flex;
   align-items: flex-end;
-  height: 60vh;
 }
 
 .fase6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
 }
 
 .fase7 {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 60vh;
 }
 
 .fase8 {
   display: flex;
   flex-direction: row-reverse;
-  height: 60vh;
 }
 
 .fase9 {
@@ -124,14 +158,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 80vh;
 }
 
 .fase12 {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  height: 75vh;
 }
 
 .fase13 {
@@ -139,7 +171,6 @@ footer {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: flex-end;
-  height: 80vh;
 }
 
 .fase14 {
@@ -187,26 +218,22 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 90vh;
 }
 
 .fase20 {
   display: flex;
   flex-flow: column wrap;
-  height: 90vh;
 }
 
 .fase21 {
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
   align-content: flex-start;
 }
 
 .fase22 {
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
   align-content: flex-end;
 }
 
@@ -215,13 +242,9 @@ footer {
   flex-wrap: wrap;
   flex-direction: column-reverse;
   align-content: center;
-  height: 110vh;
-  background-color: antiquewhite;
 }
 
 .fase24 {
-  height: 120vh;
-  background-color: antiquewhite;
   display: flex;
   flex-flow: column-reverse wrap-reverse;
   align-items: flex-start;
@@ -291,6 +314,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  text-align: center;
   font-size: 1.5rem;
   padding: 2rem;
   border-radius: 8px;
