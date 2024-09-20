@@ -47,6 +47,7 @@ footer {
   width: 70vh;
   height: 70vh;
   background-color: coral;
+  border-radius: 10px;
 }
 
 .bigBox{
@@ -55,6 +56,7 @@ footer {
   width: 88vh;
   height: 70vh;
   background-color: coral;
+  border-radius: 10px;
 }
 
 .ret{
@@ -62,6 +64,7 @@ footer {
   width: 70vh;
   height: 90vh;
   background-color: coral;
+  border-radius: 10px;
 }
 
 .ret2{
@@ -69,6 +72,7 @@ footer {
   width: 60vh;
   height: 90vh;
   background-color: coral;
+  border-radius: 10px;
 }
 
 .ret3{
@@ -76,6 +80,7 @@ footer {
   width: 80vh;
   height: 90vh;
   background-color: coral;
+  border-radius: 10px;
 }
 
 .greenCat {
