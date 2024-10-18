@@ -26,7 +26,7 @@ function alunosMaior(todosAlunos){
     let alunosMaiores18 = [];
     for(let item in todosAlunos){
         if(todosAlunos[item].idade>=18){
-            alunosMaiores18+=todosAlunos[item];
+            alunosMaiores18.push(todosAlunos[item]);
         }
     }
 

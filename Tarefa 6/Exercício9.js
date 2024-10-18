@@ -7,5 +7,5 @@ let endereco = {
 
 for(let item in endereco){
     item.replace(/"/g, "");
-    console.log(item + " : " + endereco.item);
+    console.log(item + " : " + endereco[item]);
 }
